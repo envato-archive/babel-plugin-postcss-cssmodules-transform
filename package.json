@@ -1,6 +1,6 @@
 {
   "name": "@envato/babel-plugin-postcss-cssmodules-transform",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Babel Plugin Transform PostCSS and extract static CSS",
   "main": "index.js",
   "scripts": {
