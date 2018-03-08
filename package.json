@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/envato/babel-plugin-postcss-cssmodules-transform#readme",
   "dependencies": {
-    "deasync": "^0.1.12",
-    "mkdirp": "^0.5.1",
-    "postcss": "^6.0.19",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.1.0",
-    "postcss-modules": "^1.1.0",
-    "postcss-simple-vars": "^4.1.0"
+    "deasync": "0.1.12",
+    "mkdirp": "0.5.1",
+    "postcss": "6.0.19",
+    "postcss-cssnext": "3.1.0",
+    "postcss-import": "11.1.0",
+    "postcss-modules": "1.1.0",
+    "postcss-simple-vars": "4.1.0"
   }
 }
