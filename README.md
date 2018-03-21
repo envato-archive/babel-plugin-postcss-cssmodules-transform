@@ -1,4 +1,5 @@
 # babel-plugin-postcss-cssmodules-transform
+
 Babel plugin transform and extract PostCSS and CSS Modules to static CSS
 
 ### Status
@@ -10,6 +11,10 @@ This plugin is still at a very early stage and features are incomplete.
 ```JavaScript
 // index.js
 import styles from './index.module.css'
+
+
+// or
+const styles = require('./index.module.css')
 ```
 
 ```CSS
@@ -47,7 +52,6 @@ $ yarn add @envato/babel-plugin-postcss-cssmodules-transform -D
 
 Add the plugin to `.babelrc`.
 
-
 ```JSON
 {
   "presets": [
@@ -70,9 +74,8 @@ Add the plugin to `.babelrc`.
 
 ### Todo
 
-- [ ] support `require('./index.module.css')` syntax
-- [ ] support `postcss.config.js`
-- [ ] unit test
+* [ ] support `postcss.config.js`
+* [ ] unit test
 
 ### Alternatives
 
@@ -82,4 +85,5 @@ This plugin is based on the two plugins below, and modified to support `extractC
 * [babel-plugin-transform-postcss](https://github.com/wbyoung/babel-plugin-transform-postcss)
 
 ### License
+
 MIT
