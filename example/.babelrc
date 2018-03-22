@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["@babel/env"],
+    "@babel/stage-3",
+    "@babel/react"
+  ],
+  "plugins": [
+    ["../index.js", {
+      "extractCss": "./dist/styles.css"
+    }]
+  ]
+}

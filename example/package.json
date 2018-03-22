@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-postcss-cssmodules-transform-test",
+  "version": "0.0.1",
+  "description": "babel-plugin-postcss-cssmodules-transform-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel ./src -d ./dist --extensions '.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-react": "^7.0.0-beta.42",
+    "@babel/preset-stage-3": "^7.0.0-beta.42"
+  },
+  "browserslist": ["> 1%", "last 2 versions"]
+}

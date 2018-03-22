@@ -72,6 +72,8 @@ Add the plugin to `.babelrc`.
 }
 ```
 
+Check the `/example` folder for a complete example.
+
 ### Todo
 
 * [ ] support `postcss.config.js`
